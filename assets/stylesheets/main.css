@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Source Sans Pro', sans-serif;;
     background-color: #F3F2EF;
 }
 
@@ -128,7 +128,7 @@ ul{
 }
 #header .work ul li a{
     color:rgba(0,0,0,0.5);
-    font-size:12px;
+    font-size:13px;
 }
 #header .work ul li a:hover{
     color:#000;
@@ -225,7 +225,7 @@ ul{
 #main-nav ul li span{
     display:block;
     padding-top:4px;
-    font-size:12px;
+    font-size:13px;
 }
 #main-nav ul li a i {
     font-size: 20px;
@@ -317,6 +317,9 @@ ul{
     #main-nav ul li span {
         display: block;
     }
+    #main-nav ul li span i{
+        display:none;
+    }
     #main-nav .menu-btn {
         display: block;
     }
@@ -386,7 +389,7 @@ ul{
     display: block;
     color: rgba(0,0,0,0.6);
     padding: 10px;
-    font-size: 12px;
+    font-size: 13px;
 }
 #sidebar_1 .connections:hover a {
     background-color: #EBEBEB;
@@ -407,7 +410,7 @@ ul{
 #sidebar_1 .my-items a{
     display: block;
     padding: 15px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight:600;
     color:rgba(0,0,0,0.6);
 }
@@ -433,7 +436,7 @@ ul{
 }
 #sidebar_1 .list ul li a i{
     color:rgba(0,0,0,0.8);
-    font-size:15px;
+    font-size:16px;
 }
 #sidebar_1 .list ul li a:hover{
     text-decoration: underline;
@@ -442,7 +445,7 @@ ul{
     display: block;
     margin-top:0px;
     text-align: center;
-    font-size:13px;
+    font-size:15px;
     padding: 10px 0px;
     color:rgba(0,0,0,0.5);
     font-weight:600;
@@ -543,9 +546,9 @@ ul{
 #upload-post ul li a {
     display: block;
     padding: 11px;
-    color:rgba(0,0,0,0.4);
+    color:rgba(0,0,0,0.5);
     font-weight:600;
-    font-size:14px;
+    font-size:15px;
 }
 #upload-post ul li a:hover {
     background-color: #EBEBEB;
@@ -596,7 +599,7 @@ ul{
 }
 #sort .sort-text{
     font-size:12px;
-    color:rgba(0,0,0,0.4);
+    color:rgba(0,0,0,0.5);
 }
 #sort button .border {
     width: 82%;
@@ -617,20 +620,25 @@ ul{
     margin-right: 10px;
 }
 .post .user-info {
-    font-size: 13px;
+    font-size: 14px;
 }
 .post .user-info > div {
     margin-bottom: 2px;
 }
 
 .post .post-desc {
-    text-align: justify;
-    font-size: 14px;
+    font-size: 15px;
     padding: 0px 15px;
     margin-bottom: 15px;
-    color:rgba(0,0,0,0.6);
+    color:rgba(0,0,0,0.8);
 }
-
+.post .post-desc p a{
+    color:rgba(0,0,0,0.5);
+}
+.post .post-desc p a:hover{
+    color:#0A66C2;
+    text-decoration: underline;
+}
 .post .post-details {
     padding: 10px;
 }
@@ -654,7 +662,7 @@ ul{
 }
 .post .user-info div:nth-child(2),
 .post .user-info div:nth-child(3){
-    font-size:12px;
+    font-size:13px;
     color:rgba(0,0,0,0.5);
 }
 .post .user-info div:nth-child(3) i{
@@ -663,7 +671,10 @@ ul{
 }
 .post .post-actions li a{
 color:rgba(0,0,0,0.6);
-font-size:14px;
+font-size:15px;
+}
+.post .post-actions li a i {
+    font-size:20px;
 }
 .post .post-comments a{
     color:rgba(0,0,0,0.4);
@@ -701,20 +712,20 @@ font-size:14px;
 }
 #sidebar_2 .news ul li strong {
     font-weight: 600;
-    font-size:13px;
+    font-size:15px;
     color:rgba(0,0,0,0.7);
 }
 #sidebar_2 .news ul li a {
     color: #000;
-    font-size: 14px;
+    font-size: 15px;
     padding: 5px 10px 10px 40px;
     display: block;
     position: relative;
 }
 #sidebar_2 .news ul li a p {
-    color: rgba(0,0,0,0.40);
+    color: rgba(0,0,0,0.5);
     margin-top: 5px;
-    font-size:12px;
+    font-size:13px;
 }
 #sidebar_2 .news ul li a:hover {
     background-color: #EBEBEB;
@@ -733,17 +744,17 @@ font-size:14px;
     
 }
 #sidebar_2 .news-text h4{
-    font-size:15px;
+    font-size:17px;
     color:rgba(0,0,0,0.7);
     padding:10px 0px 0px 7px;
 }
 #sidebar_2 ul button{
     display: block;
     text-align: center;
-    font-size:14px;
+    font-size:15px;
     padding: 6px 10px 10px 40px;
     font-weight:600;
-    color:rgba(0,0,0,0.3);
+    color:rgba(0,0,0,0.4);
     background-color: #fff;
     border:none;
 }
@@ -770,7 +781,7 @@ font-size:14px;
     border-top:1px solid rgba(0,0,0,0.2);
     font-weight: 600;
     color:rgba(0,0,0,0.6);
-    font-size:14px;
+    font-size:15px;
 }
 #message .message-img{
     width:55%;
